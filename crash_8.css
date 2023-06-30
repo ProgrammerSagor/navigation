@@ -1,0 +1,301 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+.main{
+   width: 100%;
+   background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(/image/ocen.jpg);
+   background-position: center;
+   background-size: center;
+   height: 720px;
+}
+
+
+.navbar{
+   width: 1200px;
+   height: 75px;
+   margin: auto;
+}
+
+.icon{
+   width: 20px;
+   float: left;
+   height: 70px;
+}
+
+.logo{
+   color: #ff7200;
+   font-size: 35px;
+   font-family: arial;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+}
+
+.menu{
+   width: 400px;
+   height: 70px;
+   float: left;
+   margin-left: 90px;
+
+}
+
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+
+ul li{
+   list-style: none;
+   margin: 42px;
+   margin-top: 27px;
+   font-size: 14px;
+   margin-right: 7px;
+}
+
+
+ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover{
+   color: #ff7200;
+
+}
+
+
+.search{
+   width: 330px;
+   float: left;
+   margin-left: 42px;
+   display: flex;
+}
+
+.srch{
+   font-family: 'Times New Roman';
+   width: 200px;
+   height: 40px;
+   background: transparent;
+   border: 1px solid orange;
+   margin-top: 13px;
+   margin-left: 310px;
+   color: white;
+   
+   font-size: 16px;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.btn{
+   width: 100px;
+   height: 40px;
+   background: #ff7200;
+   border: 2px solid #ff7200;
+   
+   color: white;
+   font-size: 15px;
+   border-radius: 5px;
+   margin-left: 10px;
+   margin-top: 12px;
+   cursor: pointer;
+}
+
+.btn:focus{
+   outline:none;
+}
+.srch:focus{
+   outline: none;
+}
+
+
+.content{
+   margin-left: auto;
+   width: 1200px;
+   height: auto;
+   position: relative;
+}
+ 
+.content p{
+   padding-left: 25px;
+   padding-bottom: 25px;
+   font-family: arial;
+   letter-spacing: 1.2px;
+   line-height: 30px;
+   color: white;
+}
+
+.content h1{
+   font-family: 'Times New Roman';
+   font-size: 50px;
+   padding-left: 20px;
+   color: bisque;
+   letter-spacing: 2px;
+}
+
+.content .cn{
+   width: 160px;
+   height: 40px;
+   background: orange;
+   border: none;
+   margin-left: 50px;
+
+   border-radius: 10px
+
+
+}
+
+.content .cn a{
+   text-decoration: none;
+   font-size: 30px;
+   text-shadow: 5px 5px 4px red;
+   cursor: pointer;
+   color: white;
+   transition: .3s ease;
+}
+
+
+.cn:hover{
+   background-color: #ff7200;
+   color: black ;
+}
+
+
+span{
+   color: orange;
+   font-size: 60px;
+}
+
+.form{
+   width: 250px;
+   height: 380px;
+   background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+   position: absolute;
+   left: -20px;
+   right: 870px;
+   bottom: -95px;
+   border-radius: 10px;
+   padding: 25px;
+   margin-left: 850px;
+   margin-bottom: 100px;
+ 
+}
+
+.form h2{
+   width: 220px;
+   font-family: sans-serif;
+   text-align: center;
+   color: #ff7200;
+   font-size: 22px;
+   background-color: white;
+   border-radius: 10px;
+   margin: 2px; 
+   padding: 8px;
+
+}
+
+.form input{
+   width: 240px;
+   height: 35px;
+   background: transparent;
+   border: 1px solid #ff7200;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   color: white;
+}
+
+.form input:focus{
+   outline: none;
+}
+
+
+::placeholder{
+   color: aliceblue;
+   font-family: arial;
+}
+
+.btn1{
+   width: 240px;
+   height: 40px;
+   background: #e47114;
+   margin-top: 10px;
+   font-size: 18px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: .3s ease;
+   color: white;
+  
+}
+
+.btn1:hover{
+   background: #1a110a;
+}
+
+
+.btn1 a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+.form .link{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   padding-top: 20px;
+   text-align: center;
+}
+
+.master a{
+   color: orange;
+   text-decoration: none;
+   text-align: center;
+   padding-left: 56px;
+   padding-bottom: 10px;
+}
+
+.liw { 
+}
+
+
+.liw a{
+   text-decoration: none;
+   color:#ff7200;
+   margin-left: 138px;
+   margin-bottom: 30px;
+}
+
+.icon1{
+   display: flex;
+  
+}
+
+.icon1 a{
+   width: 50px;
+   height: 35px;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   box-shadow: 0px 1px 0px 1px red;
+
+}
+
+.icon1 a:hover{
+   color: red;
+}
